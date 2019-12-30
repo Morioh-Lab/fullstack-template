@@ -1,0 +1,83 @@
+{
+  "name": "fullstack-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Morioh-Lab/fullstack-template.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "Morioh Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Morioh-Lab/fullstack-template/issues"
+  },
+  "homepage": "https://github.com/Morioh-Lab/fullstack-template#readme",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --progress --watch --colors",
+    "prod": "cross-env NODE_ENV=production webpack -p --watch --progress --colors",
+    "start": "node ./dist/app.js"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.7.2",
+    "@hapi/crumb": "^7.3.0",
+    "@hapi/hapi": "^18.4.0",
+    "@hapi/inert": "^5.2.1",
+    "@hapi/joi": "^16.1.7",
+    "@hapi/vision": "^5.5.4",
+    "@hapi/yar": "^9.2.0",
+    "hapi-auth-jwt2": "^8.8.0",
+    "hapi-bodyparser": "^2.1.2",
+    "log4js": "^5.3.0",
+    "mix-dash": "^1.1.15",
+    "mix-hash": "^1.0.5",
+    "mongoose": "^5.7.12",
+    "mongoose-paginate-v2": "^1.3.4",
+    "mustache": "^3.1.0",
+    "v-msgx": "^1.0.3",
+    "vue-nprogress": "^0.1.5",
+    "vue-router": "^3.0.7",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.7.0",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.7.1",
+    "autoprefixer": "^9.7.2",
+    "babel-loader": "^8.0.6",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "babel-preset-minify": "^0.5.0",
+    "clean-webpack-plugin": "^2.0.2",
+    "copy-webpack-plugin": "^5.0.5",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-externals-plugin": "^3.8.0",
+    "html-webpack-plugin": "^3.0.6",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "terser-webpack-plugin": "^2.2.1",
+    "url-loader": "^2.2.0",
+    "vue-loader": "^15.7.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-node-externals": "^1.6.0",
+    "webpack-obfuscator": "^0.18.4"
+  }
+}
