@@ -24,7 +24,7 @@
   "dependencies": {
     "@babel/runtime": "^7.7.2",
     "@hapi/crumb": "^7.3.0",
-    "@hapi/hapi": "^18.4.0",
+    "@hapi/hapi": "^19.1.1",
     "@hapi/inert": "^5.2.1",
     "@hapi/joi": "^16.1.7",
     "@hapi/vision": "^5.5.4",
