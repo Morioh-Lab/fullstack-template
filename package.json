@@ -29,7 +29,7 @@
     "@hapi/joi": "^16.1.7",
     "@hapi/vision": "^5.5.4",
     "@hapi/yar": "^9.2.0",
-    "hapi-auth-jwt2": "^8.8.0",
+    "hapi-auth-jwt2": "^10.4.0",
     "hapi-bodyparser": "^2.1.2",
     "log4js": "^5.3.0",
     "mix-dash": "^1.1.15",
